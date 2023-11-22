@@ -17,30 +17,44 @@ function generatePassword(){
   }
   var uppercase = ["A","B","C"];
   var lowercase = ["a","b","c"];
-  var numbers = ["1","2","3","4"];
+  var numberChars = ["1","2","3","4"];
   var special = ["!","@","$","%"];
   var possibleChar = []; //holding all possible characters for the password
+
   var finalChar = []; //at least one char of each type that we said yes for
+
   var pwd = [];
   
   var confirmUpper = confirm("Need upper case letters in your password?");
 
-  var confirmLower = confirm("Need upper case letters in your password?");
-
-  var confirmNumber = confirm("Need upper case letters in your password?");
-
-  var confirmSpecial = confirm("Need upper case letters in your password?");
-
   if(confirmUpper){
     possibleChar = possibleChar.concat(uppercase);
-    console.log(uppercase);
-    finalChar.push(uppercase[Math.floor(Math.random()*uppercase.length)]);
+    console.log(possibleChar);
+   
   }
-
+  var confirmLower = confirm("Need lower case letters in your password?");
   if(confirmLower){
     possibleChar = possibleChar.concat(lowercase);
-    finalChar.push(lowercase[Math.floor(Math.random()*lowercase.length)]);
+    console.log(possibleChar);
   }
+
+  var confirmNumber = confirm("Need numbers in your password?");
+  
+    if(confirmNumber){ 
+  possibleChar = possibleChar.concat(numberChars);
+  console.log(possibleChar);
+  
+    }
+
+  var confirmSpecial = confirm("Need special characters in your password?");
+
+
+
+if(confirmSpecial){
+possibleChar = possibleChar.concat(special)
+console.log(possibleChar)
+}
+
 
   //add IF conditions for number and special characters
 
@@ -65,7 +79,7 @@ function writePassword() {
   passwordText.value = password;
 
 }
-
+ 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
