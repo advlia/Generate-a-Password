@@ -19,7 +19,7 @@ It will then ask if they want uppercase, lowercase, numbers, or special characte
 ##Links
 
 file:///C:/Users/adali/OneDrive/desktop/Homework/Password-Generator/index.html
-
+https://advlia.github.io/Generate-a-Password/
 
 
 ##Credit
