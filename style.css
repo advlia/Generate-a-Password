@@ -130,7 +130,13 @@ button[disabled] {
   }
 }
 
-@media (max-width: 500px) {
+
+
+
+@media (max-width: 800px) {
+  .flex-item-right, flex-item-left {
+    flex: %100
+  }
   .btn {
     font-size: 0.8rem;
   }
