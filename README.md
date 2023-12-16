@@ -2,13 +2,13 @@
 
 
 ##Purpose
-This website was created to assist employees in generating a random strong and secure password.
-I modified Javascript code to work efficiently and act as a fully responsive webpage, so it will adjust to all screen sizes. HTML and CSS were also updated. My motivation was to understand JS code better. I practiced using and defining funtions and arrays. I also added an event listener and loop funtion.
+This page was created to assist employees in generating a random strong and secure password.
+I modified a Javascript code to work efficiently and act as a fully responsive webpage, so it will adjust to all screen sizes. HTML and CSS were also updated to funtion with JS. My motivation for this project was to understand JS code better by gaining more experience. I learned how to define arrays, functions, add a prompt box and an event listener. The loop function added is what randomly selects characters from all possible characters to generate the password.
 
 ##Usage
-After the user clicks the generate password button, they will be asked for their password length preference
+After user clicks the generate password button, they will be asked for their password length preference
 (must be 1 to 128 characters). If input number is invalid an error will display and exit.
-It will then ask if they want uppercase, lowercase, or special characters. A random password will then be generated. 
+It will then ask if they want uppercase, lowercase, numbers, or special characters in the password. A random password will then be generated based on their preferences.
 
 
 <img width="901" alt="screenshot" src="https://github.com/advlia/Random-Password-Generator/assets/147446558/201cdd6c-dfe3-403f-9d39-798ae99a9377">
