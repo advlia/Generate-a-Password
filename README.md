@@ -2,10 +2,12 @@
 
 
 ##Purpose
+
 This page was created to assist employees in generating a random strong and secure password.
 I modified a Javascript code to work efficiently and act as a fully responsive webpage, so it will adjust to all screen sizes. HTML and CSS were also updated to funtion with JS. My motivation for this project was to understand JS code better by gaining more experience. I learned how to define arrays, functions, add a prompt box and an event listener. The loop function added is what randomly selects characters from all possible characters to generate the password.
 
 ##Usage
+
 After user clicks the generate password button, they will be asked for their password length preference
 (must be 1 to 128 characters). If input number is invalid an error will display and exit.
 It will then ask if they want uppercase, lowercase, numbers, or special characters in the password. A random password will then be generated based on their preferences.
@@ -15,11 +17,13 @@ It will then ask if they want uppercase, lowercase, numbers, or special characte
 
 
 ##Links
+
 file:///C:/Users/adali/OneDrive/desktop/Homework/Password-Generator/index.html
 
 
 
 ##Credit
+
 https://www.w3schools.com/jsref/met_win_prompt.asp
 https://www.w3schools.com/js/js_random.asp
 
@@ -29,6 +33,7 @@ Mansi Patel
 -
 
 ##License
+
 MIT License
 
 Copyright (c) 2023 advlia
